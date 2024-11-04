@@ -1,2 +1,5 @@
 pip3 install flask
+pip3 install -r requirements.txt
 python3 -m flask run
+docker build -t flask-smorest-api .
+docker run -dp 5005:5000 flask-smorest-api
