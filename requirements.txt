@@ -1,9 +1,7 @@
-flask~=3.0.3
-flask-smorest
+Flask-JWT-Extended
+Flask-Smorest
+Flask-SQLAlchemy
+passlib
+marshmallow
 python-dotenv
-pip~=24.3.1
-wheel~=0.37.0
-setuptools~=58.0.4
-future~=0.18.2
-marshmallow~=3.23.1
-flask-sqlalchemy
+gunicorn
